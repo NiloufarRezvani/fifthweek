@@ -1,0 +1,58 @@
+
+        @import url('https://fonts.cdnfonts.com/css/gotham-6');
+
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,500;9..40,700&family=Figtree&family=Inter&family=Playfair+Display:wght@700;800&family=Raleway:wght@600&family=Ruwudu:wght@500&family=Vazirmatn&display=swap');
+
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        @media screen and (max-width:768px) {
+           .topbutton{
+            display: none;
+           }
+           
+        }
+
+        .image {
+            width: 25%;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            width: 30%;
+        }
+
+        .topbutton {
+            width: 99px;
+            background-color: #292929;
+            color: aliceblue;
+            font-family: 'Gotham', sans-serif;
+            ;
+        }
+
+        p {
+            font-family: 'Gotham', sans-serif;
+        }
+
+        h1 {
+            color: #292929;
+            font-family: 'Anton', sans-serif;
+        }
+
+        h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 114px;
+            background: linear-gradient(to left, #FEE140, #FA709A);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-text {
+            display: flex;
+            flex-direction: column;
+        }
