@@ -1,0 +1,46 @@
+
+body{
+    padding: 0;
+}
+
+.hole-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 10px;
+    width:80%;
+    height: 80%;
+    flex-direction: column;
+    margin: auto auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.divider{
+    width:80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(229, 64, 64);
+}
+.user-input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap:10px
+}
+button{
+    width: 260px;
+    height: 50px;
+    background-color: rgb(250, 151, 85);
+    margin-top: 20px;
+  }
